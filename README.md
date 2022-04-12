@@ -6,3 +6,4 @@
 - labels are `POSTIVE` for positive reviews and `NEGATIVE` for negative reviews
 ## installation
 all dependencies exists in [requirnments.txt](/requirnments.txt)
+
