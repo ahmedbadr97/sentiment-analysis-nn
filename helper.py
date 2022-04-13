@@ -1,3 +1,7 @@
+import numpy as np
+from collections import Counter
+
+
 def load_data():
     """
     load dataset from reviews and labels text files
@@ -12,3 +16,18 @@ def load_data():
     if labels is None:
         raise FileNotFoundError("there is a problem reading labels file")
     return reviews, labels
+
+
+def max_counter_value(counter: Counter):
+    mx = -np.inf
+    for value in counter.values():
+        mx = max(mx, value)
+    return mx
+
+
+def min_counter_value(counter: Counter):
+    mn = np.inf
+    for value in counter.values():
+        mn = min(mn, value)
+    return mn
+
