@@ -31,3 +31,19 @@ def min_counter_value(counter: Counter):
         mn = min(mn, value)
     return mn
 
+
+class NNLiner:
+    def __init__(self, input_size, output_size):
+        self.input_size = input_size
+        self.output_size = output_size
+
+        self.values = np.zeros((1,output_size), float)
+
+        std = self.input_size ** -0.5
+        self.weights = np.random.normal(0.0, std, (self.input_size, self.output_size))
+
+        self.bias = np.zeros((1,self.output_size), float)
+
+    def __call__(self, x):
+        self.values = np.dot(x, self.weights) + self.bias
+        return self.values
