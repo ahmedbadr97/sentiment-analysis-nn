@@ -3,8 +3,9 @@
 ## sections included in sentiment-analysis jupyter file
 1. load and view dataset
 2. understanding dataset and Developing a "Predictive Theory"
-3. building nn model
-4. training and testing the model
+3. explanation of feedforward and backward equations used in the code
+4. building nn model
+5. training and testing the model
 
 ## Dataset
 - dataset is a text file has 25000 line separated movie reviews in [review.txt](dataset/reviews.txt) and labels are in [labels.txt](dataset/labels.txt)
