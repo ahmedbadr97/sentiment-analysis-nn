@@ -1,3 +1,4 @@
 jupyter
-numpy
+numpy~=1.22.3
 sklearn
+IPython

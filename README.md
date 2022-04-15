@@ -12,5 +12,5 @@
 - **sample**
   - ![sample png](data-sample.PNG)
 ## installation
-- all dependencies exists in [requirements.txt](/requirements.txt) use `pip install -r requirements.txt` to install al requirements
+- all dependencies exists in [requirements.txt](/requirements.txt) use `pip install -r requirements.txt` to install all requirements
 - methods and classes used in [sentiment-analysis jupyter file](sentiment-analysis.ipynb) exists in [helper python file](helper.py)
